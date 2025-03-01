@@ -7,7 +7,7 @@
 
 body {
     background-color: black;
-    background-image: url(../images&videos/body.jpg);
+    background-image: url(body.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -15,7 +15,6 @@ body {
     overflow: hidden;
     display: flex;
     align-items: center;
-    /* justify-content:center; */
     gap: 30px;
 
 }
@@ -28,13 +27,11 @@ body {
     background-color: rgba(0, 0, 0, 0.3);
     opacity: 1;
     border-radius: 5px;
-    /* height: 40px; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 20px 0 0 100px;
-    /* z-index: 1; */
     position: relative;
     box-shadow: 20px 10px 150px #00263B;
     transform: translateX(-0);
@@ -70,7 +67,7 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    background-image: url(../images&videos/myslider1.jpg);
+    background-image: url(myslider1.jpg);
     background-size: cover;
     rotate: 360deg;
     animation-name: slider;
@@ -85,28 +82,28 @@ body {
 @keyframes slider {
     0% {
 
-        background-image: url(../images&videos/myslider1.jpg);
+        background-image: url(myslider1.jpg);
         rotate: 360deg;
     }
 
     25% {
-        background-image: url(../images&videos/myslider2.webp);
+        background-image: url(myslider2.webp);
         rotate: 350deg;
     }
 
     50% {
-        background-image: url(../images&videos/myslider3.png);
+        background-image: url(myslider3.png);
         rotate: 340deg;
     }
 
     75% {
-        background-image: url(../images&videos/myslider4.gif);
+        background-image: url(myslider4.gif);
         rotate: 320deg;
 
     }
 
     100% {
-        background-image: url(../images&videos/slider01.gif);
+        background-image: url(slider01.gif);
         rotate: 360deg;
 
     }
@@ -137,14 +134,14 @@ p {
 }
 
 .wave {
-    /* border: 2px solid red; */
+    
     margin-top: 15px;
     border-radius: 25px;
     margin-left: 20px;
 }
 
 audio {
-    /* display: inline-block; */
+    
     margin-top: 30px;
     margin-left: 30px;
     width: 250px;
@@ -152,17 +149,13 @@ audio {
 }
 
 .animated-box {
-    /* border: 2px solid; */
+    
     width: 500px;
     padding: 10px;
     margin-top: 20px;
     text-align: right;
     border-radius: 20px;
-    /* box-shadow: 0 0px 130px rgb(57, 56, 56); */
-    /* background-color: transparent; */
-
-
-    /* transform: translateX(); */
+    
 }
 
 .animated-box p {
@@ -171,8 +164,8 @@ audio {
     font-family: Monotype Corsiva;
     transform: translateX(0);
     animation: animated-box 4s linear 1;
-    line-height: 2;
-    /* animation-delay: 3s; */
+    line-height: 1;
+    
 
 }
 
